@@ -1,0 +1,20 @@
+# The build directory
+_build
+
+# Editor backup files
+*~
+*.bak
+
+# Vim temporary files
+[._]*.sw[a-z]
+[._]*.un~
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs temporary files
+\#*\#
+.\#*
+
+# Other generated files
+tags

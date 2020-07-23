@@ -1,0 +1,8 @@
+[submodule "lxterminal"]
+	path = lxterminal
+	url = ../lxterminal.git
+	branch = custom
+[submodule "vte"]
+	path = vte
+	url = ../vte.git
+	branch = custom
