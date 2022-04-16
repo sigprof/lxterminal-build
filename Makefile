@@ -112,7 +112,7 @@ vte-configure: _build/.stamp.vte-configure
 # reconfiguration is really needed, it would hopefully be triggered by the
 # ninja build).
 _build/.stamp.vte-configure: vte/meson.build Makefile | _build/vte
-	meson setup _build/vte vte --prefix=$(prefix)
+	meson setup _build/vte vte --prefix=$(prefix) -D vapi=false
 	touch _build/.stamp.vte-configure
 
 # Do not use a stamp file here, so that ninja would run every time and check
